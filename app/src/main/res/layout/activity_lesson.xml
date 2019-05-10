@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LessonActivity"
+        android:id="@+id/lessonContent"
+        android:orientation="vertical">
+
+    <EditText
+            android:drawableLeft="@drawable/ic_menu_send"
+            android:id="@+id/lessonText"
+            android:hint="Entrez du texte"
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+    <EditText
+            android:drawableLeft="@drawable/ic_menu_send"
+            android:id="@+id/numberText"
+            android:hint="Entrez un nombre"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+   <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Valider"
+            android:id="@+id/btn_check"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

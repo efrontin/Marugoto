@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragment.LessonFragment"
+             android:orientation="vertical">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/hello_blank_fragment"
+    android:background="@color/colorAccent"
+    android:textColor="#ffff"
+            android:textAlignment="center"
+            android:padding="5dp"
+    android:textSize="20sp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    android:layout_gravity="center">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Audio"
+                android:id="@+id/button"
+                android:background="#358a32" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson"
+                android:id="@+id/button2"
+                android:background="#0058b6" />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info"
+                android:id="@+id/button3"
+                android:background="#0058b6" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

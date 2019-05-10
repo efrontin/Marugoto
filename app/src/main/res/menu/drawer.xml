@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_competence"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Compétences"/>
+        <item
+                android:id="@+id/experience"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Expérience Professionelle"/>
+        <item
+                android:id="@+id/nav_formation"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Formation"/>
+        <item
+                android:id="@+id/nav_projets"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Projets"/>
+        <item
+                android:id="@+id/nav_hobbies"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Hobbies"/>
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Partage"/>
+            <item
+                    android:id="@+id/nav_linkedin"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Linkedin"/>
+        </menu>
+    </item>
+
+</menu>
